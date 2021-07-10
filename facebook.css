@@ -1,0 +1,149 @@
+#logo {
+	width:206px;
+	margin:auto;
+}
+.main-tab {
+	width:400px;
+	/*height:200px;*/
+	margin:auto;
+	border: 1px solid #dddfe2;
+	border-radius:8px;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.main-tab * {
+	margin:auto;
+}	
+.head {
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	font-size:18px;
+	text-align:center;
+	margin:15px 0px;
+}
+.input-area {
+	display:flex;
+	position:relative;
+	flex-direction:column;
+	height:125px;
+	margin-bottom:5px;
+
+}
+input {
+	width:370px;
+	height:50px;
+	font-size:17px;
+	margin:auto;
+	border: 1px solid #dddfe2;
+	border-radius:6px;
+	padding:14px 16px;
+}
+input:focus {
+	outline:none;
+}
+.hide {	
+	display:none;
+	position:absolute;
+	width:25px;
+	height:25px;
+	top:80px;
+	left:349px;
+	border-radius:50%;
+	background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/je5FEJkU1_K.png); 
+	background-repeat:no-repeat;
+	background-position:5px 4px;
+	cursor:pointer;
+}
+.hide:hover {
+	background-color:#e3e5e8;
+}
+.button-area {
+	margin-bottom:25px;
+}
+.button-area *{
+	margin:auto;	
+	text-align:center;
+}
+.sign-in {
+	width:370px;
+	height:46px;
+	/*!border:1px solid black;*/
+	border-radius:6px;
+    	background-color: #1877f2;
+    	color: #fff;
+	cursor: pointer;
+	font-size:20px;
+	font-weight:bold;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	text-align:center;
+    	line-height: 48px;
+}
+.sign-in:hover{
+	background-color:#0e70f1;
+}
+.text {
+	/* !width:380px;
+	!height:50px;
+	!border:1px solid black; */
+	margin:20px auto;
+}
+.find {
+	margin:20px 0px;
+	color: #1877f2;
+    	font-size: 14px;
+	cursor:pointer;
+}
+.find:hover {
+	text-decoration:underline;
+}
+.or {
+	color: #96999e;
+	font-size:12px;
+	position:relative;
+}
+div.or::before {
+	content:'';
+	/* !margin-right:15px; */
+	display:inline-block;
+	background:#d7dade;
+	width:150px;
+	height:1px;
+	position:absolute;
+	top:8px;
+	left:20px;
+}
+div.or::after {
+	content:'';
+	/* !margin-left:15px; */
+	display:inline-block;
+	background: #d7dade;
+	width:150px;
+	height:1px;
+	position:absolute;
+	top:8px;
+	left:230px;
+}
+.new-account {
+	width:150px;
+    	border-radius: 6px;
+    	font-size: 17px;
+	font-weight: bold;
+	color: #fff;
+    	line-height: 48px;
+	background-color: #42b72a;
+	cursor:pointer;
+}
+.new-account:hover {
+	background-color:#3ba626;
+}
+.test {
+	margin:auto;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
